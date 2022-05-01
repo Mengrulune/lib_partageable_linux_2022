@@ -3,6 +3,6 @@
 
 int composant1(int p1, int p2);
 
-const char * getComposant1Version(void);
+extern "C" const char * getComposant1Version(void);
 
 #endif
